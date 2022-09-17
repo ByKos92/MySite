@@ -1,25 +1,6 @@
 .experience {
     padding-top: 120px;
 
-    &__title {
-        position: relative;
-        margin-bottom: 0;
-        padding-top: 6px;
-        @include before_circle;
-        text-align: center;
-
-        &:before {
-            top: 0;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-    }
-
-    &__subtitle {
-        text-align: center;
-        margin-top: 6px;
-    }
-
     &__wrapper {
         position: relative;
         padding: 60px 65px 0 65px;
